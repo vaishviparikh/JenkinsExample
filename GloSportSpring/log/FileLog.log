@@ -1,0 +1,18 @@
+18-Mar-2026 13:00:36 INFO - Executing service method: registerNewPlayer
+18-Mar-2026 13:00:37 INFO - Exception Thrown by Service Method: registerNewPlayer with error message:  Email id is already registered in the database for another player: rafa@bull.com
+18-Mar-2026 13:01:11 INFO - Executing service method: getPlayerById
+18-Mar-2026 13:01:11 INFO - Exception Thrown by Service Method: getPlayerById with error message:  Player details are not found in the database for the given player id: 25
+18-Mar-2026 13:14:28 INFO - Executing service method: registerNewPlayer
+18-Mar-2026 13:14:29 INFO - Completed Service method: {}registerNewPlayer with result: 18
+18-Mar-2026 13:15:30 INFO - Executing service method: registerNewPlayer
+18-Mar-2026 13:15:30 INFO - Exception Thrown by Service Method: registerNewPlayer with error message:  Email id is already registered in the database for another player: vaishvi@bull.com
+18-Mar-2026 13:16:01 INFO - Executing service method: getPlayerById
+18-Mar-2026 13:16:01 INFO - Completed Service method: {}getPlayerById with result: PlayerDTO{playerId=4, playerName='Tom Brady', playerEmail='tom@tb12.com', equipmentSummary={Helmet=Riddell SpeedFlex, American Football=Wilson The Duke}}
+18-Mar-2026 13:16:11 INFO - Executing service method: getPlayerById
+18-Mar-2026 13:16:11 INFO - Exception Thrown by Service Method: getPlayerById with error message:  Player details are not found in the database for the given player id: 20
+18-Mar-2026 13:17:38 INFO - Executing service method: getEquipmentForPlayer
+18-Mar-2026 13:17:38 INFO - Completed Service method: {}getEquipmentForPlayer with result: com.glosport.dto.EquipmentDTO@3dfaff1b
+18-Mar-2026 13:18:02 INFO - Executing service method: getEquipmentForPlayer
+18-Mar-2026 13:18:02 INFO - Exception Thrown by Service Method: getEquipmentForPlayer with error message:  Equipment details are not found in the database for the given equipment id: 27
+18-Mar-2026 13:18:22 INFO - Executing service method: deleteEquipment
+18-Mar-2026 13:18:22 INFO - Exception Thrown by Service Method: deleteEquipment with error message:  Player details are not found in the database for the given player id: 20
